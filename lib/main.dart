@@ -1,4 +1,4 @@
-import 'package:chat_box/features/authentication/presentation/view/pages/login_page.dart';
+import 'package:chat_box/features/authentication/presentation/view/pages/otp_varification_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: LoginPage(),
+      // home: LoginPage(),
+      // home: SignupPage(),
+      // home: SignupPage(),
+      home: OtpVarificationPage(),
     );
   }
 }
